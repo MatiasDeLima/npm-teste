@@ -1,0 +1,25 @@
+{
+  "name": "gpt-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "components",
+    "library"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "babel-loader": "^9.1.3",
+    "terser-webpack-plugin": "^5.3.9",
+    "webpack": "^5.89.0"
+  }
+}
